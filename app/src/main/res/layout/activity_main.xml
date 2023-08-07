@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wave" >
+
+        <ImageView
+            android:id="@+id/kuliner"
+            android:layout_width="142dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="163dp"
+            android:src="@drawable/culinary1"></ImageView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="366dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-45dp"
+        android:src="@drawable/wiponame"></ImageView>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="18dp"
+        android:fontFamily="@font/poppins"
+        android:text="Welcome to Ponorogo!"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="What you wanna do in here?"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/wisata"
+        android:layout_width="146dp"
+        android:layout_height="154dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/vacation"></ImageView>
+
+    <TextView
+        android:id="@+id/wisatarekomended"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="74dp"
+        android:fontFamily="@font/poppins"
+        android:text="Vacation Recommended"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="360dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ngebel"
+                android:layout_width="151dp"
+                android:layout_height="114dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ngebel"></ImageView>
+
+            <ImageView
+                android:id="@+id/mloko"
+                android:layout_width="151dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mloko">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/alun_alun"
+                android:layout_width="151dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/alun_alun"></ImageView>
+
+            <ImageView
+                android:id="@+id/ngembag"
+                android:layout_width="151dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ngembag">
+
+            </ImageView>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/makananrekomended"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="109dp"
+        android:fontFamily="@font/poppins"
+        android:text="Culinary Recommended"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="525dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/sate"
+                android:layout_width="157dp"
+                android:layout_height="108dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sate"></ImageView>
+
+            <ImageView
+                android:id="@+id/gegog"
+                android:layout_width="146dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gegog"></ImageView>
+            <ImageView
+                android:id="@+id/tiwul"
+                android:layout_width="157dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tiwul"></ImageView>
+
+            <ImageView
+                android:id="@+id/dawet"
+                android:layout_width="146dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dawet"></ImageView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/copyrights"
+        android:layout_width="350dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="750dp"
+        android:src="@drawable/copyright"></ImageView>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="146dp"
+        android:layout_height="154dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="625dp"
+        android:src="@drawable/wipologo"></ImageView>
+</RelativeLayout>

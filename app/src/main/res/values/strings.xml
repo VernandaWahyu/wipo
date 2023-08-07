@@ -1,0 +1,11 @@
+<resources>
+        <string name="app_name">Wipo</string>
+        <string name="contact">Contact</string>
+        <string name="pindah_activity8">Pahlawan</string>
+        <string name="heroes_name">Heroes name</string>
+        <string name="detail">Detail</string>
+        <string name="favorite">Favorit</string>
+        <string name="share">Bagi</string>
+        <string name="list">List View</string>
+        <string name="grid">Grid View</string>
+</resources>
